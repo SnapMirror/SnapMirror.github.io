@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - AirCast</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.98);
+            padding: 50px 45px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #e3f2fd;
+        }
+        
+        .logo {
+            font-size: 42px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .last-updated {
+            color: #546e7a;
+            font-size: 14px;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        .intro {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f0f4ff 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 35px;
+            border-left: 4px solid #6366f1;
+            color: #263238;
+            font-size: 15px;
+        }
+        
+        h2 {
+            color: #6366f1;
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 4px solid #6366f1;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #37474f;
+            font-size: 15px;
+        }
+        
+        ul {
+            margin: 15px 0 20px 25px;
+            color: #37474f;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        
+        li strong {
+            color: #1a237e;
+            font-weight: 600;
+        }
+        
+        .important-notice {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid #ff9800;
+        }
+        
+        .important-notice strong {
+            color: #e65100;
+        }
+        
+        .warning-box {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid #d32f2f;
+        }
+        
+        .warning-box strong {
+            color: #b71c1c;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f0f4ff 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+            border: 2px solid #bbdefb;
+        }
+        
+        .contact-section h2 {
+            margin-top: 0;
+            border-left: none;
+            padding-left: 0;
+        }
+        
+        .contact-section p {
+            margin: 10px 0;
+        }
+        
+        .contact-section a {
+            color: #6366f1;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .contact-section a:hover {
+            color: #4f46e5;
+            text-decoration: underline;
+        }
+        
+        .acceptance {
+            text-align: center;
+            margin-top: 40px;
+            padding: 25px;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-radius: 12px;
+            border: 2px solid #81c784;
+        }
+        
+        .acceptance p {
+            color: #1b5e20;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            color: #546e7a;
+            font-style: italic;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 35px 25px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">AirCast</div>
+            <h1>Terms of Service</h1>
+            <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+        </div>
+        
+        <div class="intro">
+            <p><strong>Welcome to AirCast!</strong> These Terms of Service ("Terms") constitute a legally binding agreement between you and <strong>SnapMirrorHub</strong> ("we," "our," or "us") governing your use of the AirCast application (the "App"), a screen mirroring and wireless display solution. By downloading, installing, or using AirCast, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+        </div>
+        
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using AirCast, you agree to comply with and be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must not use the App and should uninstall it immediately.</p>
+        
+        <h2>2. License Grant and Scope</h2>
+        <p>SnapMirrorHub grants you a limited, non-exclusive, non-transferable, revocable license to use AirCast for personal, non-commercial purposes, subject to these Terms.</p>
+        
+        <h3>2.1 Permitted Uses</h3>
+        <ul>
+            <li>Screen mirroring from your personal mobile devices to Smart TVs and compatible displays</li>
+            <li>Casting photos, videos, presentations, and other media content you legally own or have rights to display</li>
+            <li>Wireless display for legitimate personal, educational, or business purposes</li>
+        </ul>
+        
+        <h3>2.2 License Restrictions</h3>
+        <p>You agree NOT to:</p>
+        <ul>
+            <li><strong>Reverse Engineer:</strong> Decompile, disassemble, or attempt to derive the source code of the App</li>
+            <li><strong>Modify or Distribute:</strong> Create derivative works, modify, translate, or distribute the App without authorization</li>
+            <li><strong>Circumvent Security:</strong> Bypass, disable, or interfere with security features or access controls</li>
+            <li><strong>Commercial Exploitation:</strong> Resell, sublicense, or commercially exploit the App without written permission</li>
+            <li><strong>Remove Attribution:</strong> Remove, alter, or obscure any copyright, trademark, or proprietary notices</li>
+        </ul>
+        
+        <h2>3. Content Responsibility and Restrictions</h2>
+        
+        <div class="important-notice">
+            <p><strong>Important:</strong> You are solely responsible for all content you cast, mirror, or display using AirCast. You must have the legal right to access, use, and display any content you transmit through the App.</p>
+        </div>
+        
+        <h3>3.1 Your Obligations</h3>
+        <ul>
+            <li><strong>Legal Compliance:</strong> Ensure all content you cast complies with applicable copyright laws, intellectual property rights, and local regulations</li>
+            <li><strong>Licensed Content:</strong> Only cast content you own, have permission to use, or that is licensed for your use</li>
+            <li><strong>No Piracy:</strong> Do not use AirCast to cast pirated, illegally downloaded, or unauthorized copyrighted content</li>
+            <li><strong>Respect Rights:</strong> Respect the intellectual property rights of content creators and copyright holders</li>
+        </ul>
+        
+        <h3>3.2 Prohibited Content</h3>
+        <p>You agree NOT to cast or transmit content that:</p>
+        <ul>
+            <li>Violates copyright, trademark, patent, or other intellectual property rights</li>
+            <li>Contains malware, viruses, or harmful code</li>
+            <li>Is illegal, obscene, defamatory, or violates any laws</li>
+            <li>Infringes upon the privacy or rights of others</li>
+            <li>Contains unauthorized streaming of copyrighted broadcasts or premium content</li>
+        </ul>
+        
+        <div class="warning-box">
+            <p><strong>⚠️ Copyright Warning:</strong> Using AirCast to illegally stream or display copyrighted content without authorization may violate copyright laws and could result in legal action by copyright holders. We do not endorse or support copyright infringement in any form.</p>
+        </div>
+        
+        <h2>4. Device Compatibility and Network Requirements</h2>
+        <p>AirCast requires:</p>
+        <ul>
+            <li>Compatible source device (smartphone, tablet) with supported operating system</li>
+            <li>Compatible target device (Smart TV, streaming device, or display with casting capabilities)</li>
+            <li>Stable Wi-Fi network with both devices connected to the same local network</li>
+            <li>Sufficient network bandwidth for smooth screen mirroring (minimum 5 Mbps recommended)</li>
+        </ul>
+        <p>We do not guarantee compatibility with all devices or network configurations. Performance may vary based on device capabilities, network conditions, and environmental factors.</p>
+        
+        <h2>5. Service Availability and Updates</h2>
+        
+        <h3>5.1 Service Modifications</h3>
+        <p>We reserve the right to:</p>
+        <ul>
+            <li>Modify, update, or discontinue features at any time without prior notice</li>
+            <li>Implement automatic updates to improve functionality, security, and compatibility</li>
+            <li>Temporarily suspend service for maintenance, upgrades, or technical issues</li>
+        </ul>
+        
+        <h3>5.2 Updates</h3>
+        <p>To maintain optimal performance and security, we may automatically download and install updates. You agree to receive such updates as part of your use of AirCast.</p>
+        
+        <h2>6. Privacy and Data Collection</h2>
+        <p>Your use of AirCast is also governed by our Privacy Policy, which explains how we collect, use, and protect your information. By using the App, you consent to our data practices as described in the Privacy Policy.</p>
+        <p><strong>Key Privacy Points:</strong></p>
+        <ul>
+            <li>We do NOT record, view, or store the actual content you cast</li>
+            <li>We collect technical metadata for functionality and improvement purposes</li>
+            <li>Local network access is required for device discovery and casting</li>
+        </ul>
+        
+        <h2>7. Disclaimer of Warranties</h2>
+        <p>AirCast is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, either express or implied.</p>
+        
+        <h3>7.1 No Guarantees</h3>
+        <p>We do not warrant that:</p>
+        <ul>
+            <li>The App will meet all your requirements or expectations</li>
+            <li>The App will be uninterrupted, timely, secure, or error-free</li>
+            <li>Results obtained from using the App will be accurate or reliable</li>
+            <li>Casting quality will be consistent across all devices and networks</li>
+            <li>All content formats will be supported or cast successfully</li>
+            <li>The App will be compatible with all devices, operating systems, or Smart TVs</li>
+        </ul>
+        
+        <h3>7.2 Third-Party Devices</h3>
+        <p>AirCast relies on third-party devices (Smart TVs, routers, displays) that are beyond our control. We are not responsible for compatibility issues, performance limitations, or malfunctions related to third-party hardware or software.</p>
+        
+        <h2>8. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by applicable law:</p>
+        <ul>
+            <li><strong>No Indirect Damages:</strong> We shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of AirCast</li>
+            <li><strong>No Loss Claims:</strong> We are not liable for any loss of data, profits, revenue, or business opportunities</li>
+            <li><strong>Device Damage:</strong> We are not responsible for damage to devices resulting from app use</li>
+            <li><strong>Network Issues:</strong> We are not liable for connectivity problems, network failures, or bandwidth limitations</li>
+            <li><strong>Content Issues:</strong> We are not responsible for any legal consequences resulting from your casting of unauthorized or illegal content</li>
+        </ul>
+        <p>Some jurisdictions do not allow the exclusion of certain warranties or limitation of liability. In such jurisdictions, our liability will be limited to the maximum extent permitted by law.</p>
+        
+        <h2>9. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless SnapMirrorHub and its affiliates from any claims, damages, liabilities, costs, and expenses (including reasonable attorney fees) arising from:</p>
+        <ul>
+            <li>Your use or misuse of AirCast</li>
+            <li>Your violation of these Terms</li>
+            <li>Your violation of any rights of third parties, including copyright infringement</li>
+            <li>Your casting of unauthorized, illegal, or infringing content</li>
+        </ul>
+        
+        <h2>10. Termination</h2>
+        
+        <h3>10.1 Termination by You</h3>
+        <p>You may stop using AirCast at any time by uninstalling the App from your device.</p>
+        
+        <h3>10.2 Termination by Us</h3>
+        <p>We reserve the right to terminate or suspend your access to AirCast immediately, without prior notice or liability, for any reason, including but not limited to:</p>
+        <ul>
+            <li>Violation of these Terms</li>
+            <li>Illegal use or copyright infringement</li>
+            <li>Abuse of the service or malicious activity</li>
+            <li>At our sole discretion</li>
+        </ul>
+        
+        <h2>11. Governing Law and Dispute Resolution</h2>
+        <p>These Terms shall be governed by and construed in accordance with applicable international laws and the laws of the jurisdiction where SnapMirrorHub operates, without regard to conflict of law provisions.</p>
+        
+        <h3>11.1 Dispute Resolution</h3>
+        <p>Any disputes arising from these Terms or your use of AirCast should first be addressed by contacting us at <a href="mailto:support@snapmirror.hub">support@snapmirror.hub</a>. We will attempt to resolve disputes informally.</p>
+        
+        <h2>12. Changes to Terms</h2>
+        <p>We may modify these Terms at any time. Material changes will be notified through:</p>
+        <ul>
+            <li>In-app notifications</li>
+            <li>Email to registered users</li>
+            <li>Update to the "Last Updated" date</li>
+        </ul>
+        <p>Continued use of AirCast after changes constitutes acceptance of the modified Terms. If you do not agree to changes, you must stop using the App.</p>
+        
+        <h2>13. Severability</h2>
+        <p>If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.</p>
+        
+        <h2>14. Entire Agreement</h2>
+        <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and SnapMirrorHub regarding AirCast and supersede all prior agreements and understandings.</p>
+        
+        <div class="contact-section">
+            <h2>15. Contact Information</h2>
+            <p>For questions, concerns, or support regarding these Terms or AirCast, please contact us:</p>
+            <p><strong>Developer:</strong> SnapMirrorHub</p>
+            <p><strong>Support Email:</strong> <a href="mailto:support@snapmirror.hub">support@snapmirror.hub</a></p>
+            <p><strong>Response Time:</strong> We aim to respond within 24-48 hours</p>
+        </div>
+        
+        <div class="acceptance">
+            <p>✓ By using AirCast, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Thank you for choosing AirCast for your screen mirroring needs.</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-update the current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
